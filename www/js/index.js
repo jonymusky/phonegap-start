@@ -42,8 +42,8 @@ var app = {
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
+        //receivedElement.setAttribute('style', 'display:block;');
+        navigator.app.loadUrl("http://www.playboxargentina.com.ar/quiero/mobile");
+        //console.log('Received Event: ' + id);
     }
 };
